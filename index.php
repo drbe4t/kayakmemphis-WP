@@ -33,21 +33,9 @@
 	<!-- Google Font -->
 	<link href="https://fonts.googleapis.com/css?family=Bungee|Bungee+Shade|Open+Sans:400,400i,700" rel="stylesheet">
 
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- Flexslider  -->
-	<link rel="stylesheet" href="css/flexslider.css">
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
-	<!-- Font Awesome -->
-	<link rel="stylesheet" href="css/font-awesome.min.css">
+<?php wp_head(); ?>
 
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
+
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
@@ -505,20 +493,7 @@
 			</footer>
 		</div>
 
-
-		<!-- jQuery -->
-		<script src="js/jquery.min.js"></script>
-		<!-- jQuery Easing -->
-		<script src="js/jquery.easing.1.3.js"></script>
-		<!-- Bootstrap -->
-		<script src="js/bootstrap.min.js"></script>
-		<!-- Waypoints -->
-		<script src="js/jquery.waypoints.min.js"></script>
-		<!-- Flexslider -->
-		<script src="js/jquery.flexslider-min.js"></script>
-
-		<!-- MAIN JS -->
-		<script src="js/main.js"></script>
+		<?php wp_footer(); ?>
 
 </body>
 
